@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Cube4
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-224.0,"y":-214.0},"guid":"c71338d6-eacb-4371-9c8e-959fd71a0cd0","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-280.0,"y":35.0},"guid":"3c057936-06ba-42f3-92c7-294b0ee8992d","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"kind":"Scene","defaultValues":{"name":{"$content":"Cube4","$type":"System.String"}},"position":{"x":156.0,"y":-215.0},"guid":"5924777b-77f7-442b-bfb9-d0e25bb111d1","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"13"},{"chainable":false,"member":{"name":"localPosition","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":-1.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-68.0,"y":-214.0},"guid":"5df6c5e5-d422-46f6-9235-0e03b4e000ab","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Cube4","$type":"System.String"}},"position":{"x":-286.0,"y":133.0},"guid":"b523ecc0-ddbf-4215-9e0b-57f619b004bd","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"chainable":false,"member":{"name":"localPosition","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":-1.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-98.0,"y":52.0},"guid":"c9745eab-33db-4ad2-b0ee-0e01679bd9c1","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"69cae2a7-c089-4401-8f41-eb6f2e3cd75a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"fd0e01d2-98a4-40ec-8b34-7cb84d1118af","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"assigned","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"3bec3077-303c-4e21-8ec1-21df1a8af323","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"e28d59fa-fe1e-4fa6-bd86-4140d618acce","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"input","guid":"949a5c7d-f443-401f-804a-e75636f43fce","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
